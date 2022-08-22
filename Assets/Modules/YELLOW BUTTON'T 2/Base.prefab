@@ -311,7 +311,7 @@ Transform:
   m_GameObject: {fileID: 1224837336842186}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -0.02, y: 0.0163, z: 0.0526}
-  m_LocalScale: {x: 0.005871125, y: 0.008204969, z: 0.006000011}
+  m_LocalScale: {x: 0.007929271, y: 0.009526279, z: 0.006000011}
   m_Children: []
   m_Father: {fileID: 4259139028157018}
   m_RootOrder: 2
@@ -910,7 +910,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1224837336842186}
-  m_Text: COLORS
+  m_Text: 9999
   m_OffsetZ: 0
   m_CharacterSize: 0.25
   m_LineSpacing: 1
@@ -1012,9 +1012,18 @@ MonoBehaviour:
   Audio: {fileID: 114629500169079468}
   ButtonSelectable: {fileID: 114172576021530450}
   ButtonCap: {fileID: 1428091903822088}
-  MO: {fileID: 1962260446815250}
+  MO: {fileID: 1428091903822088}
   DisplayText: {fileID: 102913473826642718}
   ButtonText: {fileID: 102310230816451560}
+  M: 0
+  R: 0
+  W: 0
+  ANSWERbutNot: 0
+  NUM: 0
+  Z: 0
+  DOTIMES: 0
+  howmanytimes: 0
+  answer: 0
 --- !u!114 &114369284092396862
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1039,8 +1048,8 @@ MonoBehaviour:
   m_Script: {fileID: -119419473, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ModuleType: greenbuttont
-  ModuleDisplayName: Green Button't
+  ModuleType: yellowbuttont
+  ModuleDisplayName: Yellow Button't
   RequiresTimerVisibility: 1
 --- !u!114 &114462647377417402
 MonoBehaviour:
